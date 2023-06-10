@@ -20,10 +20,18 @@
 
 /* Header & Navbar styles */
 
+.header {
+    background: #FFF8F3;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    padding-top: 50px;
+    margin: 0px 200px;
 }
 
 nav ul {
@@ -41,3 +49,63 @@ nav ul li {
     font-size: 45px;
 }
 
+/* Banner Styles */
+
+.banner {
+    margin-left: 200px;
+    margin-right: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.banner-subtitle {
+    color: #474747;
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.banner-title {
+    color: #181818;
+    font-weight: 700;
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.banner-desc {
+    color: #757575;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+/* Main Styles */
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* About Section */
+
+.about {
+    background: #FFF8F3;
+    text-align: center;
+    margin-top: 100px;
+    padding: 120px 155px;
+    border-radius: 10px;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 35px;
+
+}
+
+.section-details{
+    margin: 20px 0px;
+}
+.contact-details {
+    display: flex;
+    justify-content: space-around;
+}
