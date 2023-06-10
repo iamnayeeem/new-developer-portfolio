@@ -102,10 +102,44 @@ main {
 
 }
 
-.section-details{
+.section-details {
     margin: 20px 0px;
 }
+
 .contact-details {
     display: flex;
     justify-content: space-around;
+}
+
+/* My skills section */
+
+.my-skills {
+    margin-top: 120px;
+    text-align: center;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    gap: 20px;
+}
+
+.skill {
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 20px 40px;
+
+}
+.skills-desc {
+    margin: 15px 100px;
+
+}
+
+.skill-title{
+    font-weight: 700;
+        font-size: 20px;
+        color: #181818;
+        text-align: center;
+        margin: 15px 0px;
 }
